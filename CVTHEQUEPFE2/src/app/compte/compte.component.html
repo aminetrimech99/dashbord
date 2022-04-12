@@ -1,0 +1,68 @@
+<app-navbar1></app-navbar1>
+<app-navbar2></app-navbar2>
+
+<div class="mct">
+  <div class="mtc">
+    <h4>
+      <span> </span>
+      Mon Compte
+    </h4>
+  </div>
+  <div>
+    <form name="email" novalidate="" require="" class="moc0">
+      <p class="p8">Modifier mon email</p>
+      <input type="text" value="email" />
+      <input type="text" value="new email" />
+      <input type="submit" value="Enregistrer" />
+    </form>
+  </div>
+  <div class="moc">
+    <p class="p8">Modifier mon mot de passe</p>
+    <form class="moc1" name="password">
+      <input type="text" value="password" />
+      <input type="text" value="new password" />
+      <input type="submit" value="Enregistrer" />
+    </form>
+  </div>
+
+  <br />
+  <div class="deleteac">
+    <p>
+      <a
+        class="default-color"
+        ng-click="displayConfirmation = true"
+        id="delete-account"
+        ><i class="fa fa-trash-o fa-fw"></i> Supprimer mon compte</a
+      >
+    </p>
+  </div>
+</div>
+<div class="footercv">
+  <div class="mb14">
+    <br />
+
+    <br />
+    <p class="footercv">
+      Nous recueillons vos données à caractère personnel afin de vous fournir
+      les services auxquels vous souscrivez et notamment : assurer la création
+      et la gestion de votre compte, vous mettre en relation avec des recruteurs
+      en France et à travers le monde, vous proposer des entreprises et offres
+      d'emploi susceptibles de vous intéresser, vous adresser nos newsletters
+      d'information et autres services souscrits. Nous les utiliserons
+      également, sous réserve des options souscrites, à des fins de ciblage
+      publicitaire et de prospection commerciale au sein de notre Groupe, ainsi
+      qu'avec nos partenaires commerciaux (salons, formation continue, cours de
+      langue, service CV, invitations, etc.). Vous disposez à tout moment d'un
+      droit d'accès, de rectification, de suppression et d'opposition
+      relativement aux données vous concernant dans les limites prévues par la
+      loi. Vous pouvez également à tout moment revoir vos options en matière de
+      prospection commerciale et de ciblage. Ces droits peuvent être exercés à
+      tout moment en écrivant à l'adresse *****@gmail.com. findjob est un
+      service fourni par la société Figaro Classifieds. Pour en savoir plus sur
+      la confidentialité et la protection des données que vous nous communiquez,
+      cliquez ici
+    </p>
+  </div>
+  <app-footer></app-footer>
+  <router-outlet></router-outlet>
+</div>
